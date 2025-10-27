@@ -1,0 +1,265 @@
+[
+    {
+        "Id": "57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0",
+        "Created": "2025-10-27T10:48:24.806948918Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "node",
+            "server.js"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 4636,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-10-27T10:48:25.364092813Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "unhealthy",
+                "FailingStreak": 3,
+                "Log": [
+                    {
+                        "Start": "2025-10-27T10:48:31.086580511Z",
+                        "End": "2025-10-27T10:48:31.344550627Z",
+                        "ExitCode": 1,
+                        "Output": "node:events:495\n      throw er; // Unhandled 'error' event\n      ^\n\nError: connect ECONNREFUSED ::1:3000\n    at TCPConnectWrap.af
+terConnect [as oncomplete] (node:net:1555:16)\nEmitted 'error' event on ClientRequest instance at:\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at S
+ocket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.
+processTicksAndRejections (node:internal/process/task_queues:82:21) {\n  errno: -111,\n  code: 'ECONNREFUSED',\n  syscall: 'connect',\n  address: '::1',\n  port: 3000\n}\n\nNode.js v18.20.8\n"
+                    },
+                    {
+                        "Start": "2025-10-27T10:49:01.345461198Z",
+                        "End": "2025-10-27T10:49:01.529483501Z",
+                        "ExitCode": 1,
+                        "Output": "node:events:495\n      throw er; // Unhandled 'error' event\n      ^\n\nError: connect ECONNREFUSED ::1:3000\n    at TCPConnectWrap.af
+terConnect [as oncomplete] (node:net:1555:16)\nEmitted 'error' event on ClientRequest instance at:\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at S
+ocket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.
+processTicksAndRejections (node:internal/process/task_queues:82:21) {\n  errno: -111,\n  code: 'ECONNREFUSED',\n  syscall: 'connect',\n  address: '::1',\n  port: 3000\n}\n\nNode.js v18.20.8\n"
+                    },
+                    {
+                        "Start": "2025-10-27T10:49:31.529103205Z",
+                        "End": "2025-10-27T10:49:31.741070063Z",
+                        "ExitCode": 1,
+                        "Output": "node:events:495\n      throw er; // Unhandled 'error' event\n      ^\n\nError: connect ECONNREFUSED ::1:3000\n    at TCPConnectWrap.af
+terConnect [as oncomplete] (node:net:1555:16)\nEmitted 'error' event on ClientRequest instance at:\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at S
+ocket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.
+processTicksAndRejections (node:internal/process/task_queues:82:21) {\n  errno: -111,\n  code: 'ECONNREFUSED',\n  syscall: 'connect',\n  address: '::1',\n  port: 3000\n}\n\nNode.js v18.20.8\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:8e2d5fa55cd074ce7e3bb4d1498151d0239c2155c2d145cc0b9c341128194db3",
+        "ResolvConfPath": "/var/lib/docker/containers/57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0/hostname",
+        "HostsPath": "/var/lib/docker/containers/57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0/hosts",
+        "LogPath": "/var/lib/docker/containers/57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0/57ff3e4f5a7dc96f9b0fea0b06a2d05415924dc58c48195f85b7b10575d42ea0-json.log",
+        "Name": "/my-node-app-v2",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                25,
+                169
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "57ff3e4f5a7d",
+            "Domainname": "",
+            "User": "nodejs",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=18.20.8",
+                "YARN_VERSION=1.22.22",
+                "NODE_ENV=production",
+                "PORT=3000"
+            ],
+            "Cmd": [
+                "node",
+                "server.js"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "node -e \"require('http').get('http://localhost:3000/api/health', (r) =\u003e {process.exit(r.statusCode === 200 ? 0 : 1)})\""
+                ],
+                "Interval": 30000000000,
+                "Timeout": 3000000000,
+                "StartPeriod": 5000000000,
+                "Retries": 3
+            },
+            "Image": "node-app:1.1",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "description": "Application Node.js optimisée",
+                "maintainer": "abdelmonaimahdoud3@gmail.com",
+                "version": "1.1"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "084fe486b2b5ef7bb926f8f297758b2e1617f518a00f75c22ea31268063ff172",
+            "SandboxKey": "/var/run/docker/netns/084fe486b2b5",
+            "Ports": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "136c037e9594f0df9ce477deef320fe95cd169ab1f002625c297d51dcca0ac74",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null,
+                    "NetworkID": "0e05bb1f4fe95f4f1395a49740d0765c63badee802944e74efea904c6a583596",
+                    "EndpointID": "136c037e9594f0df9ce477deef320fe95cd169ab1f002625c297d51dcca0ac74",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
