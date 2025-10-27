@@ -1,0 +1,3 @@
+Donc voila ce contenu la c'est pour faire des testes sur ce fichier la
+C'est le TP1 pour docker et docker compose
+Ligne ajoutée depuis la machine hôte pour avoir est ce que on peut voir ces changements dans le conteneur
